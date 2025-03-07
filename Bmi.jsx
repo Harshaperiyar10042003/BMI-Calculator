@@ -40,7 +40,9 @@ const Bmi = () => {
   return (
     <>
       <div className="bmi-calculator">
-        <div className="box"></div>
+        <div className="box">
+        <img src="/images/bmi.jpg" alt="BMI Calculator"  />
+        </div>
         <div className="data">
             <h1>BMI CALCULATOR</h1>
             {errorMessage && <p className="error">{errorMessage} </p>}
